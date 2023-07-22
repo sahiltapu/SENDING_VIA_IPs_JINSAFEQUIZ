@@ -8,8 +8,8 @@ set "successIPFile=%~dp0success_ips.csv"
 set /a index=0
 
 REM Replace 'User' and 'Password' with the desired values
-set "User=Administrator"
-set "Password=jsplIT_ang6101"
+set "User=#"
+set "Password=#"
 
 REM Populate the arrays with the given User and Password
 for /f "usebackq tokens=1,2 delims=," %%A in ("%csvFile%") do (
