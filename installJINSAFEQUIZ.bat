@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 rem Set the name of the zip file (modify this with your zip file name)
-set "zipfilename=jinsafe.zip"
+set "zipfilename=%~dp0jinsafe.zip"
 
 call :checkFileExistence "%zipfilename%"
 if %errorlevel% neq 0 (
