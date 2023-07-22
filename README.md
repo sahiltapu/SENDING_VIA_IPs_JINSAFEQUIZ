@@ -2,8 +2,7 @@
 
 1. The "Sending_via_IPs.bat" file facilitates the transmission of "installJINSAFEQUIZ.bat" and "jinsafe.zip" to designated destination systems based on their respective IP addresses.
 
-2. The IP addresses must be preconfigured and stored in the "credential.csv" file. For instance: 192.168.1.44
-                                                                                                 168.7.99.0
+2. The IP addresses must be preconfigured and stored in the "credential.csv" file. 
 
 4. Upon execution, the "Sending_via_IPs.bat" script differentiates between successful and unsuccessful transfers. The IP addresses of the systems where the files are sent successfully are recorded in the "success_ips.csv" file, while the IP addresses of systems where the file transfer failed are stored in the "failed_ips.csv" file.
 
