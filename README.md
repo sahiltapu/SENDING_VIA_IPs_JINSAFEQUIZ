@@ -10,6 +10,8 @@
 
 6. Before initiating the file transfer, ensure to set the appropriate organization User and Password for authorization.(i.e. Administrator and its respective password)
 
-7. Make sure that all the file(i.e. .bat, .zip, .csv) are in same folder. 
+7. Make sure that all the file(i.e. .bat, .zip, .csv) are in same folder.
+
+8. Make sure that the firewall of the destination IP addresses must be turned OFF.
 
 Please ensure to adhere to the specified instructions and configuration for a successful and secure transfer process.
