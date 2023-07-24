@@ -30,8 +30,8 @@ for /L %%i in (0,1,%index%) do (
         robocopy "D:\jindal\trial" "\\!ips[%%i]!\C$\Users\Public\Downloads" "installJINSAFEQUIZ.bat"
         robocopy "D:\jindal\trial" "\\!ips[%%i]!\C$\Users\Public\Downloads" "jinsafe.zip"
         echo !ips[%%i]! >> "%successIPFile%"
-        @REM Run the runner.bat file after successful copy
-        @REM psexec \\!ips[%%i]! -u %User% -p %Password% "C:\Users\Public\Application Files\runner.bat"
+        @REM Run the installJINSAFEQUIZ.bat file after successful copy
+        @REM psexec \\!ips[%%i]! -u %User% -p %Password% "C:\Users\Public\Downloads\installJINSAFEQUIZ.bat"
     )
 
     REM Delete the network connection and wait for a few seconds before the next iteration
